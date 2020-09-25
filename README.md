@@ -6,7 +6,7 @@ Nonprofits come to GlobalGiving for many reasons, but what makes them stick arou
 * How might you summarize this data such that a non-technical user could track
 changes on a monthly basis? These should be static proof-of-concept examples of the kinds of things that could be included in an interactive dashboard or an automatic email report, but should not be interactive or automated for this assignment.
 
-![null_rates](test_image.png)
+![null_rates](california_terrain.jpg)
 
 Immediately after looking at the descriptive statistics of the data, I could tell that organization status was a key determinant of how engaged a non-profit partner was. Higher status non-profits had higher rates of starting and deactivating projects, more field visits, and valid vetting approval dates. **These engagement values mean nothing, however, if they don't translate to funds raised on the platform (a goal for our non-profit partners, and one that denotes a healthy non-profit cohort for our donors.** 
 
