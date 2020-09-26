@@ -55,6 +55,6 @@ This chart will be really helpful for us to understand how many non-profits per 
 ## What's Next?
 
 While investigating funds raised per status, it became clear that larger organizations are not the ones necessarily raising the most money on GlobalGiving. As you can see here, some very large organizations have hardly raised any money on GG:
-![org_size](org_size_donations.jpg)
+![org_size](org_size_donations.png)
 
 <i>In the future, I believe we have a big opportunity to focus on increasing the share of doantion funds for these larger organizations.</i>
