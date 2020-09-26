@@ -72,9 +72,10 @@ While investigating funds raised per status, it became clear that larger organiz
 * Or, write a webscraper to pull in information from where these high potential organizations receieve donations
 <br><br>
 
-### Clustering of Key Attributes per Status
-With our high-level retention metric in place and progression pipeline built, I would like to spend time deep-diving into the attributes of higher status non-profits. I'd approach this with a k-means clustering to start teasing out the successful attribute of our non-profits.
+### Clustering and Pairings of Key Attributes per Status
+With our high-level retention metric in place and progression pipeline built, I would like to spend time deep-diving into the attributes of higher status non-profits. I'd approach this with a k-means clustering and pairplots to start teasing out the successful attributes of our non-profits.
 <br><br>
 **Data requirements:**<br>
 * I'd use the GG API to pull in additional demographic attributes like project themes, time of project posting, project region, and featured
+* I'd also leverage features like acquisition category, unique donors, and whether they completed the accelerator to provide a diverse picture of our non-profits
 <br><br>
