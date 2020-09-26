@@ -35,6 +35,13 @@ As you can see, retention rate improves with status. I will be working on a dash
 **#2 Retention across the 'funnel'**<br>
 Secondly, we should look at retention across the non-profit 'funnel', meaning as non-profits progress through the increasingly important statuses. Understanding where customers are progressing, or digressing, can help identify areas where we are and are not providing guidance and the resources our non-profits need.
 
-[non_profit_status](non_profit_status_count.png)
+![non_profit_status](non_profit_status_count.png)
 
-I'll provide a drop off rate 
+I'll provide a drop off rate from each status level so we can see where non-profits are digressing.
+
+Lastly, in addition to general status progression, I calculated a likelihood of progression based on factors like vetting expiration date, active projects, last site visit, and last project landed.
+
+![non_profit_progression](non_profit_progress_likelihood.png)
+
+This chart will be really helpful for us to understand how many non-profits per status type are on track to remain or progress, vs digress. Additionally, I'll be sending out monthly reminders for our Superstar non-profits that are at-risk of dropping. I'll be sure to include what action they have failed to take.
+
