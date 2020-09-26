@@ -7,17 +7,12 @@ Nonprofits come to GlobalGiving for many reasons, but what makes them stick arou
 changes on a monthly basis? These should be static proof-of-concept examples of the kinds of things that could be included in an interactive dashboard or an automatic email report, but should not be interactive or automated for this assignment.
 
 
-Immediately after looking at the descriptive statistics of the data, I could tell that organization status was a key determinant of how engaged a non-profit partner was. Higher status non-profits had higher rates of starting and deactivating projects, more field visits, and valid vetting approval dates. **These engagement values mean nothing, however, if they don't translate to funds raised on the platform (a goal for our non-profit partners, and one that denotes a healthy non-profit cohort for our donors.** 
+Immediately after looking at the descriptive statistics of the data, I could tell that organization status was a key determinant of how engaged a non-profit partner was. Higher status non-profits had higher rates of starting and deactivating projects, more field visits, and valid vetting approval dates. **These engagement values mean nothing, however, if they don't translate to funds raised on the platform (a goal for our non-profit partners, and one that denotes a healthy non-profit cohort for our donors.)** 
 
 To answer this, I looked at the average funds raised per non-profit status type. What I wanted to answer was: **Is status aligned with our goal of retention, as suggested by funds raised?**
 
 As you can see below, this is the case:
-![funds_raised](average_funds.jpg)
-
-While investigating funds raised per status, it became clear that larger organizations are not the ones necessarily raising the most money on GlobalGiving. As you can see here, some very large organizations have hardly raised any money on GG:
-![org_size](org_size_donations.jpg)
-
-<i>In the future, I believe we have a big opportunity to focus on increasing the share of doantion funds for these larger organizations.</i>
+![funds_raised](all_funds_raised.png)
 
 ## Metric Definition
 I view retention in the context of GlobalGiving in two ways:<br>
@@ -44,3 +39,9 @@ Lastly, in addition to general status progression, I calculated a likelihood of 
 
 This chart will be really helpful for us to understand how many non-profits per status type are on track to remain or progress, vs digress. Additionally, I'll be sending out monthly reminders for our Superstar non-profits that are at-risk of dropping. I'll be sure to include what action they have failed to take.
 
+## What's Next?
+
+While investigating funds raised per status, it became clear that larger organizations are not the ones necessarily raising the most money on GlobalGiving. As you can see here, some very large organizations have hardly raised any money on GG:
+![org_size](org_size_donations.jpg)
+
+<i>In the future, I believe we have a big opportunity to focus on increasing the share of doantion funds for these larger organizations.</i>
