@@ -21,12 +21,21 @@ I view retention in the context of GlobalGiving in two ways:<br>
 
 **#1 Platform Retention**<br>
 At GlobalGiving, landing a (completing the posting of an active) campaign requires engagement on the part of the non-profit, and results in a healthy ecosystem of causes for GlobalGiving donors.<br><br> Landing a campaign is best tracked by seeing which non-profits have project deactivation dates. For the purposes of having a single KPI for **platform retention**, I will only look at project deactivation. If a project has a valid deactivation date, they were retained (in the given timeframe). If not, whether its because they never created a project or 'fell out' of the creation process, I consider them not retained.
+<br>
+**Delinquent Landed Rate**<br>
+![retention_rate](retention_by_status.png)<br>
 
-![retention_rate](retention_by_status_1.png)
-![retention_rate](retention_by_status_2.png)
-![retention_rate](retention_by_status_3.png)
-![retention_rate](retention_by_status_4.png)
+**Emerging Landed Rate**<br>
+![retention_rate](retention_by_status_2.png)<br>
 
+**Partner Landed Rate**<br>
+![retention_rate](retention_by_status_3.png)<br>
+
+**Leader Landed Rate**<br>
+![retention_rate](retention_by_status_4.png)<br>
+
+**Superstar Landed Rate**<br>
+![retention_rate](retention_by_status_5.png)<br>
 
 As you can see, retention rate improves with status. I will be working on a dashboard to provide these rates per status as they change over time, and I recommend we set thresholds for each.
 
