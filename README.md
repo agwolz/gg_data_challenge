@@ -54,13 +54,26 @@ This chart will be really helpful for us to understand how many non-profits per 
 
 ## Next Version
 ### Project Landed Rate <br>
-In the future, I think it is paramount that we add in a funds raised per project threshold when considering project landed rate. All projects are not created equal, and in order to know what to optimize for, we should use funds raised per project to track which non-profits are landing **meaningful and desired** projects.<br>
-**Data implications:**<br>
+In the future, I think it is paramount that we add in a funds raised per project threshold when considering project landed rate. All projects are not created equal, and in order to know what to optimize for, we should use funds raised per project to track which non-profits are landing **meaningful and desired** projects.
+<br><br>
+**Data requirements:**<br>
 * Connect to the GlobalGiving API to get specific project funding for a non-profits active projects
+<br><br>
 
+### Finetune the Project Progression Likelihood Score <br>
+As you'll see in my code, my equation for determining someone's likelihood of progressing is based on intuition. In my next steps, I'd love to further discuss what factors count towards someone's progression so I can update the equation accordingly, as well as how soon your team would like alerts.
+<br><br>
+**Data requirements:**<br>
+* Timeframe of when status is updated
+<br><br>
 
-
+### Identify non-profits with large fundraising potential
 While investigating funds raised per status, it became clear that larger organizations are not the ones necessarily raising the most money on GlobalGiving. As you can see here, some very large organizations have hardly raised any money on GG:
 ![org_size](org_size_donations.png)
 
-<i>In the future, I believe we have a big opportunity to focus on increasing the share of doantion funds for these larger organizations.</i>
+<i>In the future, I believe we have a big opportunity to focus on increasing the share of donation funds for these larger organizations.</i>
+<br><br>
+**Data requirements:**<br>
+* [External dataset] - if available, integrate information on where a large non-profit is raising its funds
+* Or, write a webscraper to pull in information from where these high potential organizations receieve donations
+<br><br>
