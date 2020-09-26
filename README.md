@@ -11,18 +11,22 @@ Immediately after looking at the descriptive statistics of the data, I could tel
 
 To answer this, I looked at the average funds raised per non-profit status type. What I wanted to answer was: **Is status aligned with our goal of retention, as suggested by funds raised?**
 
-As you can see below, this is the case:
+As you can see below, this is the case:<br>
 ![funds_raised](all_funds_raised.png)
 
 ## Metric Definition
 I view retention in the context of GlobalGiving in two ways:<br>
-#1 Retention for getting on the platform and successfully creating a project
+#1 Retention for getting on the platform and successfully creating a project <br>
 #2 Retention of non-profits as they progress through the status 'funnel'
 
 **#1 Platform Retention**<br>
 At GlobalGiving, landing a (completing the posting of an active) campaign requires engagement on the part of the non-profit, and results in a healthy ecosystem of causes for GlobalGiving donors.<br><br> Landing a campaign is best tracked by seeing which non-profits have project deactivation dates. For the purposes of having a single KPI for **platform retention**, I will only look at project deactivation. If a project has a valid deactivation date, they were retained (in the given timeframe). If not, whether its because they never created a project or 'fell out' of the creation process, I consider them not retained.
 
+![retention_rate](retention_by_status_1.png)
+![retention_rate](retention_by_status_2.png)
 ![retention_rate](retention_by_status_3.png)
+![retention_rate](retention_by_status_4.png)
+
 
 As you can see, retention rate improves with status. I will be working on a dashboard to provide these rates per status as they change over time, and I recommend we set thresholds for each.
 
