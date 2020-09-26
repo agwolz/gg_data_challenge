@@ -52,7 +52,13 @@ Lastly, in addition to general status progression, I calculated a likelihood of 
 
 This chart will be really helpful for us to understand how many non-profits per status type are on track to remain or progress, vs digress. Additionally, I'll be sending out monthly reminders for our Superstar non-profits that are at-risk of dropping. I'll be sure to include what action they have failed to take.
 
-## What's Next?
+## Next Version
+### Project Landed Rate <br>
+In the future, I think it is paramount that we add in a funds raised per project threshold when considering project landed rate. All projects are not created equal, and in order to know what to optimize for, we should use funds raised per project to track which non-profits are landing **meaningful and desired** projects.<br>
+**Data implications:**<br>
+* Connect to the GlobalGiving API to get specific project funding for a non-profits active projects
+
+
 
 While investigating funds raised per status, it became clear that larger organizations are not the ones necessarily raising the most money on GlobalGiving. As you can see here, some very large organizations have hardly raised any money on GG:
 ![org_size](org_size_donations.png)
