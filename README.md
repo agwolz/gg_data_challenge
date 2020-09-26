@@ -1,12 +1,6 @@
 # GlobalGiving Data Challenge
 
-<strong>Task</strong><br>
-Nonprofits come to GlobalGiving for many reasons, but what makes them stick around? Our program team is interested in better understanding the retention of nonprofit partners on the platform so they can better design programs to support longer-term relationships. Using the data provided, please put together a short analysis that answers the following questions:
-* What metrics might we use to describe organization retention based on this data?
-* How might you summarize this data such that a non-technical user could track
-changes on a monthly basis? These should be static proof-of-concept examples of the kinds of things that could be included in an interactive dashboard or an automatic email report, but should not be interactive or automated for this assignment.
-
-
+<strong>Analysis</strong><br>
 Immediately after looking at the descriptive statistics of the data, I could tell that organization status was a key determinant of how engaged a non-profit partner was. Higher status non-profits had higher rates of starting and deactivating projects, more field visits, and valid vetting approval dates. **These engagement values mean nothing, however, if they don't translate to funds raised on the platform (a goal for our non-profit partners, and one that denotes a healthy non-profit cohort for our donors.)** 
 
 To answer this, I looked at the average funds raised per non-profit status type. What I wanted to answer was: **Is status aligned with our goal of retention, as suggested by funds raised?**
@@ -40,7 +34,7 @@ At GlobalGiving, landing a (completing the posting of an active) campaign requir
 As you can see, retention rate improves with status. I will be working on a dashboard to provide these rates per status as they change over time, and I recommend we set thresholds for each.
 
 **#2 Retention across the 'funnel'**<br>
-Secondly, we should look at retention across the non-profit 'funnel', meaning as non-profits progress through the increasingly important statuses. Understanding where customers are progressing, or digressing, can help identify areas where we are and are not providing guidance and the resources our non-profits need.
+Secondly, we should look at how non-profits progress through the status 'funnel', so we can keep a pulse on the flow of partners to the distinguished (and more funded) statuses. Understanding where customers are progressing, or digressing, can help identify areas where we are and are not providing guidance and the resources our non-profits need.
 
 ![non_profit_status](non_profit_status_count.png)
 
@@ -76,4 +70,11 @@ While investigating funds raised per status, it became clear that larger organiz
 **Data requirements:**<br>
 * [External dataset] - if available, integrate information on where a large non-profit is raising its funds
 * Or, write a webscraper to pull in information from where these high potential organizations receieve donations
+<br><br>
+
+### Clustering of Key Attributes per Status
+With our high-level retention metric in place and progression pipeline built, I would like to spend time deep-diving into the attributes of higher status non-profits. I'd approach this with a k-means clustering to start teasing out the successful attribute of our non-profits.
+<br><br>
+**Data requirements:**<br>
+* I'd use the GG API to pull in additional demographic attributes like project themes, time of project posting, project region, and featured
 <br><br>
